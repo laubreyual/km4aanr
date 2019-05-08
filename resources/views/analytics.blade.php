@@ -100,8 +100,8 @@
 		});
 		new Chart(document.getElementById("views"),{"type":"line","data":{"labels":["January","February","March","April","May","June","July","August","September","October","November","December"],"datasets":[{"label":"Number of Views","data":[65,59,80,181,156,55,40,123,23,12,23,134],"fill":false,"borderColor":"rgb(96, 125, 139)","lineTension":0.1}]},"options":{}});
 		new Chart(document.getElementById("downloads"),{"type":"line","data":{"labels":["January","February","March","April","May","June","July","August","September","October","November","December"],"datasets":[{"label":"Number of Downloads","data":[21,9,50,59,150,12,2,0,6,6,10,69],"fill":false,"borderColor":"rgb(96, 125, 139)","lineTension":0.1}]},"options":{}});
-		new Chart(document.getElementById("agriculture"),{"type":"pie","data":{"labels":["Animal Science","Soil Science","Entomology"],"datasets":[{"label":"My First Dataset","data":[64,48,12],"backgroundColor":["rgb(67, 160, 71)","rgb(165, 214, 167)","rgb(27, 94, 32)"]}]}});
-		new Chart(document.getElementById("aquatic"),{"type":"pie","data":{"labels":["Ocean Science","Fisheries"],"datasets":[{"label":"My First Dataset","data":[4,8],"backgroundColor":["rgb(30, 136, 229)","rgb(100, 181, 246)"]}]}});
-		new Chart(document.getElementById("naturalresources"),{"type":"pie","data":{"labels":["Paper Science","Forestry Management","Sustainable Management"],"datasets":[{"label":"My First Dataset","data":[81,17,10],"backgroundColor":["rgb(109, 76, 65)","rgb(161, 136, 127)","rgb(62, 39, 35)"]}]}});
+		new Chart(document.getElementById("agriculture"),{"type":"pie","data":{"labels":["Crops","Livestock"],"datasets":[{"label":"My First Dataset","data":[64,60],"backgroundColor":["rgb(67, 160, 71)","rgb(165, 214, 167)"]}]}});
+		new Chart(document.getElementById("aquatic"),{"type":"pie","data":{"labels":["Inland Fisheries","Marine Resources"],"datasets":[{"label":"My First Dataset","data":[4,8],"backgroundColor":["rgb(30, 136, 229)","rgb(100, 181, 246)"]}]}});
+		new Chart(document.getElementById("naturalresources"),{"type":"pie","data":{"labels":["Natural Resources","Forestry","Environment"],"datasets":[{"label":"My First Dataset","data":[81,17,10],"backgroundColor":["rgb(109, 76, 65)","rgb(161, 136, 127)","rgb(62, 39, 35)"]}]}});
 	</script>
 @endsection
