@@ -17,3 +17,7 @@ Route::get('/', function () {
 
     return view('inventory', compact('now'));
 });
+
+Route::get('/analytics', function() {
+	return view('analytics');
+});
