@@ -16,23 +16,23 @@
 				flex: 1 0 auto;
 			}
 		</style>
-		<title>Knowledge Management: @yield('title')</title>
+		<title>KM4AANR: @yield('title')</title>
 	</head>
 	<body>
 		<nav>
 			<div class="nav-wrapper blue-grey">
-				<a href="#!" class="brand-logo">Knowledge Management</a>
+				<a href="{{url('/')}}" class="brand-logo">&nbsp;KM4AANR</a>
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="#!">Home</a></li>
-					<li><a href="#!">Analytics</a></li>
+					<li><a href="{{url('/')}}">Inventory</a></li>
+					<li><a href="{{url('/analytics')}}">Analytics</a></li>
 				</ul>
 			</div>
   		</nav>
 		
 		<ul class="sidenav" id="mobile-demo">
-			<li><a href="#!">Home</a></li>
-			<li><a href="#!">Analytics</a></li>
+			<li><a href="{{url('/')}}">Inventory</a></li>
+			<li><a href="{{url('/analytics')}}">Analytics</a></li>
 		</ul>
 
 		<main>
@@ -67,6 +67,7 @@
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$('.sidenav').sidenav();
